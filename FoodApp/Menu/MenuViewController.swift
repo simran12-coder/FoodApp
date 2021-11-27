@@ -150,7 +150,7 @@ class MenuViewController: UIViewController {
             if let cell = table.cellForRow(at: IndexPath(row: sender.tag, section: 0)) as? MenuTableViewCell {
               
                     cell.addItemBtn.tintColor = .white
-                    cell.addItemBtn.backgroundColor = .red
+                    cell.addItemBtn.backgroundColor = .black
                     self.checkOutItemsLbl.isHidden = false
                     self.checkOutItemsView.isHidden = false
                     self.cartBtn.tintColor = .black

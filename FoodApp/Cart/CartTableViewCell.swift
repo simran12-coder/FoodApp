@@ -48,7 +48,7 @@ class CartTableViewCell: UITableViewCell {
         let label = UILabel()
         label.textAlignment = .right
         label.font = UIFont.boldSystemFont(ofSize: 14)
-        label.textColor = .systemRed
+        label.textColor = .black
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -64,7 +64,7 @@ class CartTableViewCell: UITableViewCell {
     let ratingOne: UIButton = {
         let button = UIButton()
         button.setImage(UIImage(systemName: "star.fill"), for: .normal)
-        button.tintColor = .yellow
+        button.tintColor = .black
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -72,7 +72,7 @@ class CartTableViewCell: UITableViewCell {
     let ratingTwo: UIButton = {
         let button = UIButton()
         button.setImage(UIImage(systemName: "star.fill"), for: .normal)
-        button.tintColor = .yellow
+        button.tintColor = .black
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -80,7 +80,7 @@ class CartTableViewCell: UITableViewCell {
     let ratingThree: UIButton = {
         let button = UIButton()
         button.setImage(UIImage(systemName: "star.fill"), for: .normal)
-        button.tintColor = .yellow
+        button.tintColor = .black
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -124,7 +124,7 @@ class CartTableViewCell: UITableViewCell {
     let increaseQuantityButton: UIButton = {
         let button = UIButton()
         button.setImage(UIImage(systemName: "plus"), for: .normal)
-        button.tintColor = .red
+        button.tintColor = .black
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -132,7 +132,7 @@ class CartTableViewCell: UITableViewCell {
     let decreaseQuantityButton: UIButton = {
         let button = UIButton()
         button.setImage(UIImage(systemName: "minus"), for: .normal)
-        button.tintColor = .red
+        button.tintColor = .black
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()

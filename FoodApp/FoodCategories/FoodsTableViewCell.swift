@@ -46,7 +46,7 @@ class FoodsTableViewCell: UITableViewCell {
         let button = UIButton()
         button.setImage(UIImage(systemName: "chevron.right"), for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.tintColor = .red
+        button.tintColor = .black
         button.layer.cornerRadius = 20
         button.layer.masksToBounds = false
         button.backgroundColor = .white

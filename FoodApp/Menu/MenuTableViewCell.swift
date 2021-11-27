@@ -48,7 +48,7 @@ class MenuTableViewCell: UITableViewCell {
         let label = UILabel()
         label.textAlignment = .right
         label.font = UIFont.boldSystemFont(ofSize: 14)
-        label.textColor = .systemRed
+        label.textColor = .black
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -65,7 +65,7 @@ class MenuTableViewCell: UITableViewCell {
     let ratingOne: UIButton = {
         let button = UIButton()
         button.setImage(UIImage(systemName: "star.fill"), for: .normal)
-        button.tintColor = .yellow
+        button.tintColor = .black
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -73,7 +73,7 @@ class MenuTableViewCell: UITableViewCell {
     let ratingTwo: UIButton = {
         let button = UIButton()
         button.setImage(UIImage(systemName: "star.fill"), for: .normal)
-        button.tintColor = .yellow
+        button.tintColor = .black
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -81,7 +81,7 @@ class MenuTableViewCell: UITableViewCell {
     let ratingThree: UIButton = {
         let button = UIButton()
         button.setImage(UIImage(systemName: "star.fill"), for: .normal)
-        button.tintColor = .yellow
+        button.tintColor = .black
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -106,7 +106,7 @@ class MenuTableViewCell: UITableViewCell {
         let button = UIButton()
         button.setImage(UIImage(systemName: "plus"), for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.tintColor = .red
+        button.tintColor = .black
         button.layer.cornerRadius = 20
         button.layer.masksToBounds = false
         button.backgroundColor = .white

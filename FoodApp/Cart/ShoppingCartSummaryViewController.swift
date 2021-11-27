@@ -32,7 +32,7 @@ class ShoppingCartSummaryViewController: UIViewController {
     let dropDownButton: UIButton = {
         let button = UIButton()
         button.setImage(UIImage(systemName: "chevron.down"), for: .normal)
-        button.tintColor = .red
+        button.tintColor = .black
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -92,7 +92,7 @@ class ShoppingCartSummaryViewController: UIViewController {
     let totalAmtLbl: UILabel = {
         let label = UILabel()
         label.text = "$26.75"
-        label.textColor = .red
+        label.textColor = .black
         label.textAlignment = .right
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -124,9 +124,9 @@ class ShoppingCartSummaryViewController: UIViewController {
         let button = UIButton()
         button.setTitle("Checkout", for: .normal)
         button.setTitleColor(.white, for: .normal)
-        button.backgroundColor = .red
+        button.backgroundColor = .black
         button.layer.cornerRadius = 20
-        button.layer.shadowColor = UIColor(red: 255/255, green: 0/255, blue: 28/255, alpha: 0.25).cgColor
+        button.layer.shadowColor = UIColor(red: 30/255, green: 29/255, blue: 16/255, alpha: 0.25).cgColor
         button.layer.shadowOffset = CGSize(width: 0, height: 2)
         button.layer.shadowRadius = 10
         button.layer.shadowOpacity = 1.0
@@ -168,7 +168,7 @@ class ShoppingCartSummaryViewController: UIViewController {
         UIView.animate(withDuration: 0.5, animations: {
             self.dropDownButton.transform = self.dropDownButton.transform.rotated(by: .pi)
         })
-        self.baseView.heightAnchor.constraint(equalToConstant: 60).isActive = true
+        self.baseView.heightAnchor.constraint(equalToConstant: 70).isActive = true
         self.headingLbl.topAnchor.constraint(equalTo: self.baseView.topAnchor, constant: 15).isActive = true
         self.headingLbl.bottomAnchor.constraint(equalTo: self.view.bottomAnchor,constant: 0).isActive = true
         self.deleteButton.isHidden = true
